@@ -139,6 +139,7 @@ const styles = StyleSheet.create({
   },
   leftSideTitleCardCont: {
     flexDirection: "column",
+    flexShrink: 1,
   },
   rightSideTitleCardCont: {
     flexDirection: "row",

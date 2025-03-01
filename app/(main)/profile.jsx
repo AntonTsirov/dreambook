@@ -143,13 +143,6 @@ const styles = StyleSheet.create({
     padding: 10,
     backgroundColor: theme.colors.dark,
   },
-  title: {
-    textAlign: "center",
-    fontWeight: theme.fonts.big,
-    fontSize: theme.font_sizes.large,
-    color: theme.colors.light,
-    paddingLeft: 10,
-  },
   footerContainer: {
     flexDirection: "row",
     justifyContent: "space-around",
@@ -169,7 +162,7 @@ const styles = StyleSheet.create({
     fontSize: theme.font_sizes.small,
   },
   icon: {
-    fontSize: 32,
+    fontSize: 24,
     color: theme.colors.light,
   },
   item: {

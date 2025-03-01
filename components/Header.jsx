@@ -31,7 +31,7 @@ const Header = ({
         }}
       >
         <Text style={styles.app_title}>
-          {easterEgg ? "Or Dreamster" : "DreamBook"}
+          {easterEgg ? "Dreamster" : "DreamBook"}
         </Text>
       </Pressable>
       <Text style={styles.screen_title}>{title}</Text>

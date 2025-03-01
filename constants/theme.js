@@ -1,3 +1,5 @@
+import { h_perc, w_perc } from "../helpers/common";
+
 export const theme = {
     colors: {
         dark: 'black',
@@ -9,10 +11,10 @@ export const theme = {
         big: '600'
     },
     font_sizes: {
-        small: 12,
-        normal: 14,
-        big: 16,
-        large: 24,
+        small: 10,
+        normal: 12,
+        big: 14,
+        large: 16,
     },
     radius: {
         medium: 14,

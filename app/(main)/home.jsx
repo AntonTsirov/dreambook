@@ -221,7 +221,7 @@ const styles = StyleSheet.create({
     fontSize: theme.font_sizes.small,
   },
   icon: {
-    fontSize: 32,
+    fontSize: 24,
     color: "white",
   },
 });

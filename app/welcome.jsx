@@ -25,7 +25,7 @@ const Welcome = () => {
             title="Login"
             onPress={() => router.push("login")}
           />
-          <Text style={{ alignSelf: "center", fontSize: h_perc(2) }}>-OR-</Text>
+          <Text style={{ alignSelf: "center", fontSize: theme.font_sizes.big, }}>-OR-</Text>
           <Button
             buttonStyle={{ marginHorizontal: w_perc(3) }}
             title="Register"
@@ -45,8 +45,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "space-around",
     backgroundColor: "white",
-    marginHorizontal: w_perc(4),
-    marginVertical: h_perc(4),
   },
   app_logo: {
     height: h_perc(10),
@@ -55,7 +53,7 @@ const styles = StyleSheet.create({
   },
   title: {
     textAlign: "center",
-    fontSize: h_perc(4),
+    fontSize: theme.font_sizes.big,
     fontWeight: theme.fonts.medium,
   },
   footer: {

@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     borderRadius: 10,
     paddingHorizontal: 15,
-    fontSize: 16,
+    fontSize: theme.font_sizes.big,
     marginBottom: 15,
     shadowColor: "#000",
     shadowOffset: {

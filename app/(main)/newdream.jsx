@@ -157,7 +157,7 @@ const styles = StyleSheet.create({
   title: {
     textAlign: "center",
     fontWeight: theme.fonts.big,
-    fontSize: theme.font_sizes.large,
+    fontSize: theme.font_sizes.big,
     color: "white",
   },
   footerContainer: {
@@ -179,7 +179,7 @@ const styles = StyleSheet.create({
     fontSize: theme.font_sizes.small,
   },
   icon: {
-    fontSize: 32,
+    fontSize: 24,
     color: "white",
   },
   input: {
@@ -189,7 +189,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     borderRadius: 10,
     paddingHorizontal: 15,
-    fontSize: 16,
+    fontSize: theme.font_sizes.normal,
     marginBottom: 15,
     shadowColor: "#000",
     shadowOffset: {

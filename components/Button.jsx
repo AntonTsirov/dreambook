@@ -31,7 +31,7 @@ export default Button;
 const styles = StyleSheet.create({
   button: {
     backgroundColor: 'black',
-    height: h_perc(6.6),
+    height: 50,
     justifyContent: "center",
     alignItems: "center",
     borderCurve: "continuous",
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
   },
 
   text: {
-    fontSize: h_perc(2.5),
+    fontSize: theme.font_sizes.big,
     color: "white",
     fontWeight: theme.fonts.medium,
   },
